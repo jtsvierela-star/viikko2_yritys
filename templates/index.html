@@ -2,11 +2,38 @@
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Viikko 2</title>
+    <title>Viikko 2 Sähköinsinööri ATK-maailmassa</title>
 </head>
 <body>
-    <h1>Viikko 2: Python-verkkosovellus</h1>
-    <p>Sivun latauksia: {{ kaynnit }}</p>
+   <h1 style="text-align: center; color: #203040;">
+  Viikko 2 – Python-verkkosovellus
+</h1>
+   <div style="text-align: center; margin: 15px;">
+    <img src="kuvat/hammasratas.gif"
+         alt="Pyörivä hammasratas"
+         width="100">
+</div> <p>Sivun latauksia: {{ kaynnit }}</p>
+<h2 style="text-align: center; color: #203040;"> How this supposed to work?</h2>
+
+<p>
+    Counter shows the number of page reloads. <br>
+         Python counter add number one
+        in every reload. At back end python app will add that to the database. <br>
+        Python has its own user for updating database. Main objective was about <br>
+        getting counter up and building services for Ubuntu server.
+         <br> The idea in services
+        was maintaining server that the website would have survived <br> server reboot without
+        losing the data. Of course the services supposed to start <br>
+        automatically. That is done with systemd file. After file configurations are ready <br>
+they are reloaded, enabled and started with certain systemctl-command. <br>
+</p>
     <p><a href="/">Viikon 1 etusivulle</a></p>
+<p>
+    <a href="https://github.com/jtsvierela-star/viikko2_yritys" target="_blank">
+        GitHub – Viikko 2 Repository
+    </a>
+</p>
 </body>
 </html>
+
+
